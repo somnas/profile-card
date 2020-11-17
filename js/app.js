@@ -4,17 +4,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     class Profile {
         constructor(city) {
-            this.picture = "",
-            this.first_name = "",
-            this.last_name = "",
-            this.age = 0,
-            this.city = city,
-            this.followers = 0,
-            this.likes = 0,
-            this.photo = 0
+            this.picture,
+            this.first_name = "Victor",
+            this.last_name = "Crest",
+            this.age = 26,
+            this.city = "London",
+            this.followers = 80000,
+            this.likes = 803000,
+            this.photos = 1400
         };
     }
 
-    const p1 = new Profile("Stockholm");
+    const p1 = new Profile;
     console.log(p1);
 })
